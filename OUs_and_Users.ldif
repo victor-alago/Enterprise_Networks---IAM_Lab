@@ -1,0 +1,417 @@
+# Departments
+
+dn: ou=Executive Team,dc=alago,dc=com
+objectclass: organizationalUnit
+ou: Executive Team
+description: Executive Team teams
+
+dn: ou=Human Resources & Management,dc=alago,dc=com
+objectclass: organizationalUnit
+ou: Human Resources & Management
+description: HR teams
+
+dn: ou=Technical Department,dc=alago,dc=com
+objectclass: organizationalUnit
+ou: Technical Department
+description: Tech Department teams
+
+dn: ou=Sales and Marketing,dc=alago,dc=com
+objectclass: organizationalUnit
+ou: Sales and Marketing
+description: Sales and Marketing teams
+
+dn: ou=Finance Department,dc=alago,dc=com
+objectclass: organizationalUnit
+ou: Finance Department
+description: Finance Dept teams
+
+dn: ou=Research and Development,dc=alago,dc=com
+objectclass: organizationalUnit
+ou: Research and Development
+description: R&D teams
+
+dn: ou=Customer Support,dc=alago,dc=com
+objectclass: organizationalUnit
+ou: Customer Support
+description: Customer Support teams
+
+
+
+# Employees
+
+# Executive Team
+dn: cn=John Smith,ou=Executive Team,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: John
+sn: Smith
+cn: John Smith
+uid: js
+userPassword: changeme
+
+dn: cn=Sarah Johnson,ou=Executive Team,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Sarah
+sn: Johnson
+cn: Sarah Johnson
+uid: sj
+userPassword: changeme
+
+dn: cn=David Lee,ou=Executive Team,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: David
+sn: Lee
+cn: David Lee
+uid: dl
+userPassword: changeme
+
+dn: cn=Amanda Smith,ou=Executive Team,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Amanda
+sn: Smith
+cn: Amanda Smith
+uid: as
+userPassword: changeme
+
+# Human Resources & Management
+dn: cn=Lisa Davis,ou=Human Resources & Management,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Lisa
+sn: Davis
+cn: Lisa Davis
+uid: ld
+userPassword: changeme
+
+dn: cn=Michael Williams,ou=Human Resources & Management,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Michael
+sn: Williams
+cn: Michael Williams
+uid: mw
+userPassword: changeme
+
+# Technical Department
+dn: cn=Emily Brown,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Emily
+sn: Brown
+cn: Emily Brown
+uid: eb
+userPassword: changeme
+
+dn: cn=Jennifer Turner,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Jennifer
+sn: Turner
+cn: Jennifer Turner
+uid: jt
+userPassword: changeme
+
+dn: cn=Daniel Hall,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Daniel
+sn: Hall
+cn: Daniel Hall
+uid: dh
+userPassword: changeme
+
+dn: cn=Mark Johnson,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Mark
+sn: Johnson
+cn: Mark Johnson
+uid: mj
+userPassword: changeme
+
+dn: cn=Brian Taylor,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Brian
+sn: Taylor
+cn: Brian Taylor
+uid: bt
+userPassword: changeme
+
+dn: cn=Emily Davis,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Emily
+sn: Davis
+cn: Emily Davis
+uid: ed
+userPassword: changeme
+
+dn: cn=Jessica Garcia,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Jessica
+sn: Garcia
+cn: Jessica Garcia
+uid: jg
+userPassword: changeme
+
+dn: cn=Kevin Brown,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Kevin
+sn: Brown
+cn: Kevin Brown
+uid: kb
+userPassword: changeme
+
+dn: cn=Christopher White,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Christopher
+sn: White
+cn: Christopher White
+uid: cw
+userPassword: changeme
+
+dn: cn=Jennifer Miller,ou=Technical Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Jennifer
+sn: Miller
+cn: Jennifer Miller
+uid: jm
+userPassword: changeme
+
+# Sales and Marketing
+dn: cn=Roberto Sanchez,ou=Sales and Marketing,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Roberto
+sn: Sanchez
+cn: Roberto Sanchez
+uid: rs
+userPassword: changeme
+
+dn: cn=Rachel Wilson,ou=Sales and Marketing,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Rachel
+sn: Wilson
+cn: Rachel Wilson
+uid: rw
+userPassword: changeme
+
+dn: cn=Megan Taylor,ou=Sales and Marketing,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Megan
+sn: Taylor
+cn: Megan Taylor
+uid: mt
+userPassword: changeme
+
+dn: cn=Olivia Martinez,ou=Sales and Marketing,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Olivia
+sn: Martinez
+cn: Olivia Martinez
+uid: om
+userPassword: changeme
+
+dn: cn=Anthony Davis,ou=Sales and Marketing,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Anthony
+sn: Davis
+cn: Anthony Davis
+uid: ad
+userPassword: changeme
+
+dn: cn=Eric Cantona,ou=Sales and Marketing,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Eric
+sn: Cantona
+cn: Eric Cantona
+uid: ec
+userPassword: changeme
+
+dn: cn=Samantha Wilson,ou=Sales and Marketing,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Samantha
+sn: Wilson
+cn: Samantha Wilson
+uid: sw
+userPassword: changeme
+
+dn: cn=Ashley Turner,ou=Sales and Marketing,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Ashley
+sn: Turner
+cn: Ashley Turner
+uid: at
+userPassword: changeme
+
+# Finance Department
+dn: cn=Mark Jacobs,ou
+objectClass: inetOrgPerson
+givenName: Mark
+sn: Jacobs
+cn: Mark Jacobs
+uid: mj
+userPassword: changeme
+
+dn: cn=Peter Harris,ou=Finance Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Peter
+sn: Harris
+cn: Peter Harris
+uid: ph
+userPassword: changeme
+
+dn: cn=Young Fetty,ou=Finance Department,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Young
+sn: Fetty
+cn: Young Fetty
+uid: yf
+userPassword: changeme
+
+# Research and Development
+dn: cn=Laura Miller,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Laura
+sn: Miller
+cn: Laura Miller
+uid: lm
+userPassword: changeme
+
+dn: cn=Daniel Clark,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Daniel
+sn: Clark
+cn: Daniel Clark
+uid: dc
+userPassword: changeme
+
+dn: cn=Michelle Scott,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Michelle
+sn: Scott
+cn: Michelle Scott
+uid: ms
+userPassword: changeme
+
+dn: cn=Cao Dang,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Cao
+sn: Dang
+cn: Cao Dang
+uid: cd
+userPassword: changeme
+
+dn: cn=Anderson Cooper,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Anderson
+sn: Cooper
+cn: Anderson Cooper
+uid: ac
+userPassword: changeme
+
+dn: cn=Mira Casto,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Mira
+sn: Casto
+cn: Mira Casto
+uid: mc
+userPassword: changeme
+
+dn: cn=Jeffery Zhan,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Jeffery
+sn: Zhan
+cn: Jeffery Zhan
+uid: jz
+userPassword: changeme
+
+dn: cn=Chun-Li Harris,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Chun-Li
+sn: Harris
+cn: Chun-Li Harris
+uid: clh
+userPassword: changeme
+
+dn: cn=Natalie Micheals,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Natalie
+sn: Micheals
+cn: Natalie Micheals
+uid: nm
+userPassword: changeme
+
+dn: cn=Larry Bluebird,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Larry
+sn: Bluebird
+cn: Larry Bluebird
+uid: lb
+userPassword: changeme
+
+dn: cn=Jonny O'Brien,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Jonny
+sn: O'Brien
+cn: Jonny O'Brien
+uid: jo
+userPassword: changeme
+
+dn: cn=Jimmy Choo,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Jimmy
+sn: Choo
+cn: Jimmy Choo
+uid: jc
+userPassword: changeme
+
+dn: cn=Naomi Suki,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Naomi
+sn: Suki
+cn: Naomi Suki
+uid: ns
+userPassword: changeme
+
+dn: cn=Willie Docks,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Willie
+sn: Docks
+cn: Willie Docks
+uid: wd
+userPassword: changeme
+
+dn: cn=Ben Jeffery,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Ben
+sn: Jeffery
+cn: Ben Jeffery
+uid: bj
+userPassword: changeme
+
+dn: cn=Lago Biggs,ou=Research and Development,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Lago
+sn: Biggs
+cn: Lago Biggs
+uid: lb
+userPassword: changeme
+
+
+# Customer Support
+dn: cn=Sharon Hall,ou=Customer Support,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Sharon
+sn: Hall
+cn: Sharon Hall
+uid: sh
+userPassword: changeme
+
+dn: cn=Brian King,ou=Customer Support,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Brian
+sn: King
+cn: Brian King
+uid: bk
+userPassword: changeme
+
+dn: cn=Malika Andrews,ou=Customer Support,dc=alago,dc=com
+objectClass: inetOrgPerson
+givenName: Malika
+sn: Andrews
+cn: Malika Andrews
+uid: ma
+userPassword: changeme
+
